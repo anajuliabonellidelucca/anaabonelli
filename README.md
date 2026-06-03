@@ -1,42 +1,42 @@
-# ✨ Aura Tracker & Farmer
+# ⏳ THE 2067 JUDGMENT DAY | Countdown Terminal
 
-> O guia definitivo e interativo para você calcular, ganhar (e evitar perder) seus pontos de **Aura** no dia a dia. Reforçando o gain, eliminando o loss. 😎📈
-
----
-
-## 💻 Sobre o Projeto
-
-Este site foi criado para a comunidade que quer acompanhar o seu nível de respeito e presença social (a famosa *Aura*). Ele funciona como uma ferramenta interativa onde o usuário pode simular ações diárias, calcular seu saldo de aura atual e descobrir se está com **Aura Infinita** ou se tomou um **Loss Histórico** de -10.000 de aura.
-
-Você pode testar a sua aura online clicando no link abaixo:
-🔗 **[Clique aqui para acessar o site](https://anajuliabonellidelucca.github.io/[anabonelli]/)**
+> "O tempo está correndo. Você tem exatamente até o dia **07 de Junho de 2067** para acumular o máximo de aura possível antes do reset final. Você está pronto, ou vai sumir no loss da história?" 😎📈
 
 ---
 
-## 🔥 Funcionalidades (O que o site faz)
+## 🎛️ Sobre o Projeto
 
-* **Calculadora de Aura:** Descubra quanta aura você ganhou ou perdeu com base nas suas últimas atitudes.
-* **Guia de Farm:** Dicas cruciais para farmar aura no automático (ex: salvar um copo antes de cair no chão: `+500 aura`).
-* **Alertas de Perda:** Lista de coisas vergonhosas que zeram sua aura instantaneamente (ex: dar tchau para alguém que estava acenando para outra pessoa: `-5.000 aura`).
+Este não é apenas mais um cronômetro bobo da internet. Este site é um **Terminal de Contagem Regressiva Existencial** calibrado especificamente para o dia **07/06/2067**. 
 
----
+Desenvolvido com uma estética cyberpunk e minimalista, o sistema calcula em tempo real — até o último milissegundo — quanto tempo resta para a humanidade atingir o ápice do século XXI. Quem entende de desenvolvimento sabe que manter um timer síncrono, performático e visualmente impecável é puro *farm de aura*.
 
-## 🛠️ Tecnologias Utilizadas
-
-O projeto foi construído de forma leve e responsiva utilizando a santíssima trindade do Front-end:
-
-* **HTML5** - Estruturação dos painéis de pontos e textos.
-* **CSS3** - Design moderno, dark mode (porque programador com tela clara perde -50 de aura) e efeitos visuais.
-* **JavaScript (ES6)** - Lógica para somar/subtrair os pontos e atualizar o status de aura em tempo real.
+Você pode encarar o relógio do juízo final online clicando aqui:
+🔗 **[Acesse o Terminal 2067](https://anajuliabonellidelucca.github.io/[NOME-DO-SEU-REPOSITORIO]/)**
 
 ---
 
-## 📁 Estrutura de Arquivos
+## 🔥 Funcionalidades Supremas
 
-O repositório está organizado de forma limpa:
+* **Precisão Cirúrgica:** Contagem regressiva em tempo real dividida em Anos, Meses, Dias, Horas, Minutos e Segundos.
+* **Aura Interface:** Design totalmente em Dark Mode premium (afinal, usar tela clara em pleno 2026 tira -15.000 de aura instantaneamente).
+* **Efeito Existencial:** Um lembrete constante de que o tempo voa e você precisa codar mais e reclamar menos.
+
+---
+
+## 🛠️ Stack Tecnológica
+
+Construído sem frameworks pesados, porque código limpo e direto ao ponto exala dominância:
+
+* **HTML5 Semântico** - Estrutura sólida como uma rocha.
+* **CSS3 Custom Properties** - Layout responsivo, animações fluidas e estilização aurenta.
+* **JavaScript Puro (Vanilla JS)** - O motor por trás do cálculo do tempo. Usando `Date()` de forma cirúrgica e atualizações por intervalo sem travar o navegador.
+
+---
+
+## 📁 Arquitetura do Sistema
 
 ```text
-├── index.html       # Estrutura da página e das piadas/calculadora
-├── style.css        # Visual moderno e estilizado (CSS)
-├── script.js        # Motor de cálculo dos pontos de Aura (JavaScript)
-└── README.md        # Esta documentação suprema (+100 aura por ler até aqui)
+├── index.html       # O núcleo visual do contador
+├── style.css        # Estilização sombria e imersiva
+├── script.js        # O algoritmo do tempo implacável
+└── README.md        # Este manifesto (+5.000 aura por ler até aqui)
