@@ -1,163 +1,177 @@
-:root {
-    --botao-inativo: #997878;
-    --rosa: #ffffff;
-    --botao-ativo: #da8ced;
-    --lightblue: #00ff91;
-    --texto-fundo: #977e7e;
-    --azul: #000000;
-}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projy</title>
 
-body {
-    margin: 0;
-    min-height: 100vh;
+    <link href="https://fonts.googleapis.com/css?family=Chakra+Petch:400,700&display=swap" rel="stylesheet">
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    background: linear-gradient(180deg, #8f5c8c, #a64da7);
+<body>
 
-    font-family: 'Chakra Petch', sans-serif;
-}
+<section class="conteudo-principal">
 
-.conteudo-principal {
-    width: 90%;
-    max-width: 1000px;
+    <h2 class="titulo-principal">
+        Meus Objetivos do ano
+    </h2>
 
-    background-color: rgb(227, 114, 114);
+    <div class="botoes">
+        <button class="botao ativo">67</button>
+        <button class="botao">42</button>
+        <button class="botao">sigma</button>
+        <button class="botao">boy</button>
+    </div>
 
-    border-radius: 24px;
+    <div class="container">
 
-    padding: 40px;
+        <div class="abas-textos">
 
-    box-shadow: 0 10px 40px rgba(11, 11, 11, 0.2);
+            <div class="aba-conteudo ativo">
+                <h3 class="aba-conteudo-titulo-principal">
+                    farmar aura
+                </h3>
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+                <h4 class="aba-conteudo-titulo-secundario">
+                    Tempo para completar o objetivo
+                </h4>
 
-.container {
-    width: 100%;
-    max-width: 900px;
-}
+                <div class="contador">
 
-.titulo-principal {
-    font-size: 42px;
-    text-align: center;
-    margin-bottom: 32px;
-    color: #0f172a;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias0"></p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
 
-.botoes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas0"></p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
 
-.botao {
-    font-family: 'Chakra Petch', sans-serif;
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="min0"></p>
+                        <p class="contador-digito-texto">min</p>
+                    </div>
 
-    background-color: var(--botao-inativo);
-    color: var(--rosa);
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="seg0"></p>
+                        <p class="contador-digito-texto">seg</p>
+                    </div>
 
-    border: none;
+                </div>
+            </div>
 
-    padding: 16px 24px;
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">
+                    ser moranguete
+                </h3>
 
-    font-size: 18px;
+                <h4 class="aba-conteudo-titulo-secundario">
+                    Tempo para completar o objetivo
+                </h4>
 
-    cursor: pointer;
+                <div class="contador">
 
-    transition: 0.3s;
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias1"></p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas1"></p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
 
-.botao:hover {
-    transform: translateY(-3px);
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="min1"></p>
+                        <p class="contador-digito-texto">min</p>
+                    </div>
 
-.botao.ativo {
-    background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--lightblue);
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="seg1"></p>
+                        <p class="contador-digito-texto">seg</p>
+                    </div>
 
-.abas-textos {
-    background-color: var(--texto-fundo);
+                </div>
+            </div>
 
-    padding: 40px;
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">
+                    cara de pedra
+                </h3>
 
-    border-radius: 0 0 24px 24px;
+                <h4 class="aba-conteudo-titulo-secundario">
+                    Tempo para completar o objetivo
+                </h4>
 
-    width: 100%;
+                <div class="contador">
 
-    box-sizing: border-box;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias2"></p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
 
-.aba-conteudo {
-    display: none;
-    text-align: center;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas2"></p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
 
-.aba-conteudo.ativo {
-    display: block;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="min2"></p>
+                        <p class="contador-digito-texto">min</p>
+                    </div>
 
-.aba-conteudo-titulo-principal {
-    font-size: 28px;
-    text-align: center;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="seg2"></p>
+                        <p class="contador-digito-texto">seg</p>
+                    </div>
 
-.aba-conteudo-titulo-secundario {
-    text-align: center;
-    color: var(--azul);
-    text-transform: uppercase;
-}
+                </div>
+            </div>
 
-.contador {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+            <div class="aba-conteudo">
+                <h3 class="aba-conteudo-titulo-principal">
+                    sigma aura kauan
+                </h3>
 
-.contador-digito {
-    padding: 20px;
+                <h4 class="aba-conteudo-titulo-secundario">
+                    Tempo para completar o objetivo
+                </h4>
 
-    text-align: center;
+                <div class="contador">
 
-    min-width: 120px;
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="dias3"></p>
+                        <p class="contador-digito-texto">dias</p>
+                    </div>
 
-    background: #a3e8e2;
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="horas3"></p>
+                        <p class="contador-digito-texto">horas</p>
+                    </div>
 
-    border-radius: 16px;
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="min3"></p>
+                        <p class="contador-digito-texto">min</p>
+                    </div>
 
-    margin: 10px;
-}
+                    <div class="contador-digito">
+                        <p class="contador-digito-numero" id="seg3"></p>
+                        <p class="contador-digito-texto">seg</p>
+                    </div>
 
-.contador-digito-numero {
-    font-size: 72px;
-    margin: 0;
-    color: #602f82;
-    font-weight: bold;
-}
+                </div>
+            </div>
 
-.contador-digito-texto {
-    color: var(--azul);
-    font-size: 20px;
-    margin: 0;
-}
+        </div>
 
-@media screen and (min-width: 768px) {
+    </div>
 
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
+</section>
 
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+<script src="script.js"></script>
 
-}
+</body>
+</html>
